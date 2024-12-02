@@ -1,0 +1,33 @@
+:root {
+	--color-text: #222;
+	--color-primary: #fdc401;
+	--color-primary-light: #fef1c5;
+	--color-primary-dark: #946a00;
+	--color-secondary: #bbdefb;
+	--color-secondary-dark: #1a73e8;
+	--color-light: #f1f5f9;
+	--color-night: #001632;
+	--color-danger: #96180f;
+	--color-success: #23a428;
+	--color-gray: #80868b;
+	--color-gray-light: #f3f3f3;
+	--color-grayish: #dadce0;
+	/* SHADOWS */
+	--shadow-normal: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+	--shadow-medium: 0 4px 6px -1px rgb(0 0 0 / 10%),
+		0 2px 4px -1px rgb(0 0 0 / 6%);
+	--shadow-large: 0 10px 15px -3px rgb(0 0 0 / 10%),
+		0 4px 6px -2px rgb(0 0 0 / 5%);
+	/* FONTS */
+	--font-family-title: "Rubik Dirt", sans-serif;
+	--font-family-standard: inter, system-ui, avenir, helvetica, arial, sans-serif;
+	/* FONT SIZES */
+	--border-radius-standart: 10px;
+	--border-radius-small: 5px;
+	--border-radius-large: 25px;
+
+	/* SWITCHER VARIABLES */
+	--track-color: var(--color-grayish);
+	--track-width: 40px;
+	--thumb-size: 20px;
+}

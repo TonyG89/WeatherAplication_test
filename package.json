@@ -1,0 +1,32 @@
+{
+  "name": "vue-weather-app-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --fix src/**/*.js src/**/*.vue",
+    "lint-css": "stylelint '**/*.{css,scss,sass}'",
+    "all-lints": "stylelint '**/*.{css,scss,sass}' eslint 'src/**/*.{js,vue}'",
+    "all-lints-fix": "stylelint '**/*.{css,scss,sass}' --fix"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.6",
+    "pinia": "^2.2.8",
+    "vue": "^3.5.13",
+    "vue-i18n": "^10.0.5",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "eslint": "^9.15.0",
+    "eslint-plugin-vue": "^9.31.0",
+    "sass-embedded": "^1.81.0",
+    "stylelint": "^16.11.0",
+    "stylelint-config-standard": "^36.0.1",
+    "unplugin-vue-components": "^0.27.5",
+    "vite": "^6.0.1"
+  }
+}
