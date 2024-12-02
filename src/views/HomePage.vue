@@ -67,8 +67,14 @@ onMounted(() => {
     if (locationData.value) {
       fetchWeatherNow(locationData.value.city);
       fetchWeatherForecast({
-        lat: locationData.value.latitude,
-        lon: locationData.value.longitude,
+        lat:
+          import.meta.env.MODE === "development"
+            ? locationData.value.lat
+            : locationData.value.latitude,
+        lon:
+          import.meta.env.MODE === "development"
+            ? locationData.value.lon
+            : locationData.value.longitude,
       });
     }
   });
