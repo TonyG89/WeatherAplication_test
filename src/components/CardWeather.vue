@@ -7,7 +7,7 @@
       <section class="card-icon_container">
         <img
           class="icon"
-          :src="`http://openweathermap.org/img/wn/${weather.weather.icon}@2x.png`"
+          :src="`https://openweathermap.org/img/wn/${weather.weather.icon}@2x.png`"
           :alt="weather.weather.description"
           :title="weather.weather.description"
         />

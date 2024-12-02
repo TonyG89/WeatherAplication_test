@@ -50,7 +50,7 @@ const fetchCities = async () => {
 
   try {
     const limit = 10;
-    const url = "http://api.openweathermap.org/geo/1.0/direct"; // 'https://api.openweathermap.org/data/2.5/find'
+    const url = "https://api.openweathermap.org/geo/1.0/direct"; // 'https://api.openweathermap.org/data/2.5/find'
 
     const response = await fetch(
       `${url}?q=${query.value}&limit=${limit}&appid=${apiKey}`
