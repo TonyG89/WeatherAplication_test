@@ -66,7 +66,10 @@ onMounted(() => {
   fetchUserLocation().then(() => {
     if (locationData.value) {
       fetchWeatherNow(locationData.value.city);
-      fetchWeatherForecast({ lat: locationData.value.lat, lon: locationData.value.lon });
+      fetchWeatherForecast({
+        lat: locationData.value.latitude,
+        lon: locationData.value.longitude,
+      });
     }
   });
 });
