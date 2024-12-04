@@ -51,7 +51,9 @@ const i18n = createI18n({
 				temp: "Temperature",
 				time: "Time",
 			},
-			footer_text: "Test task project created for evaluation purposes.",
+			footer_text: "This project is a test application.",
+			footer_text_2:
+				"A third-party API is used for initial display, providing data about your location.",
 		},
 		uk: {
 			main_title: "Застосунок погоди",
@@ -100,7 +102,9 @@ const i18n = createI18n({
 				temp: "Температура",
 				time: "Час",
 			},
-			footer_text: "Проект тестового завдання створений для оцінки.",
+			footer_text: "Цей проєкт є тестовим застосунком.",
+			footer_text_2:
+				"Для початкового відображення використовується стороннє API, яке надає дані про ваше місцезнаходження.",
 		},
 	},
 });

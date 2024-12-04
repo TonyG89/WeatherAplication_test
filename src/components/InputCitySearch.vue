@@ -3,6 +3,7 @@
     <input
       v-model="query"
       class="search_input"
+      autofocus
       type="text"
       :placeholder="$t('input.placeholder')"
       :title="query"

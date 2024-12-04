@@ -9,7 +9,12 @@
           :isFavorite="true"
           @toggleFavorite="removeCard"
         />
-        <CardEmpty v-for="i in 5 - updatedweatherList.length" :key="i" />
+        <CardEmpty
+          v-for="i in 5 - updatedweatherList.length"
+          :key="i"
+          style="cursor: pointer"
+          @click="$router.push('/')"
+        />
       </template>
       <template v-else>
         <CardSkeleton v-for="i in 5" :key="i" />
